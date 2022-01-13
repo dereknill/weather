@@ -189,11 +189,15 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  overflow: hidden;
+  max-width: 220px;
 }
 
 .city-name {
   font-size: 1.5rem;
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .country-name {
