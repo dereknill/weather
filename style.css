@@ -171,7 +171,7 @@ main {
 
 .weather-bottom {
   display: flex;
-  height: 70%;
+  height: 65%;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
