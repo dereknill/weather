@@ -8,7 +8,7 @@ const apiKey = "8940deef2b061764b69b6f3d91287d7e";
 
 function getWeatherData(location) {
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`,
+    `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`,
     { mode: "cors" }
   )
     .then((response) => {
