@@ -211,14 +211,15 @@ main {
 }
 
 .temperature {
-  font-size: 4rem;
-  color: #e9e8e8;
+  font-size: 3.5rem;
+  color: #d6d6d6;
+  font-weight: bold;
 }
 
 .humidity-pressure {
   background-color: #424242;
   height: 75%;
-  width: 55%;
+  width: 50%;
   border-radius: 4px;
   display: flex;
   padding: 10px 7px;
