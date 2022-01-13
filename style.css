@@ -66,6 +66,7 @@ main {
   border-bottom: 1px solid rgb(200, 200, 200);
   color: var(--text-color);
   font-weight: bold;
+  border-radius: 0;
 }
 
 .input-location::placeholder {
@@ -210,8 +211,8 @@ main {
 }
 
 .temperature {
-  font-size: 3rem;
-  color: #d6d6d6;
+  font-size: 4rem;
+  color: #e9e8e8;
 }
 
 .humidity-pressure {
