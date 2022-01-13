@@ -152,7 +152,7 @@ main {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 0 15px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -194,7 +194,7 @@ main {
 }
 
 .city-name {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
   white-space: nowrap;
   overflow: hidden;
@@ -203,13 +203,13 @@ main {
 .country-name {
   color: #cfc3e8;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .weather-title {
   color: #cfc3e8;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1rem;
   position: absolute;
   bottom: 9px;
 }
@@ -223,13 +223,14 @@ main {
 .humidity-pressure {
   background-color: #424242;
   height: 75%;
-  width: 50%;
+  width: 55%;
   border-radius: 4px;
   display: flex;
   padding: 10px 7px;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  font-size: 1.1rem;
 }
 
 .container {
