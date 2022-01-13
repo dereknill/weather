@@ -170,7 +170,7 @@ main {
 
 .weather-bottom {
   display: flex;
-  height: 60%;
+  height: 70%;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
@@ -178,14 +178,14 @@ main {
 
 .weather-bottom-sunset {
   display: flex;
-  height: 60%;
+  height: 65%;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
 }
 .city-info {
   display: flex;
-  height: 60%;
+  height: 65%;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
