@@ -161,7 +161,7 @@ main {
 
 .weather-info {
   display: flex;
-  height: 80%;
+  height: 87%;
   width: 50%;
   flex-direction: column;
   justify-content: flex-start;
