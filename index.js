@@ -86,8 +86,10 @@ function kelvinToF(degKelvin) {
 }
 
 function formatTime(unixTime, offset) {
-  let date = new Date(unixTime * 1000);
-  let hours = date.getUTCHours() + offset / 3600;
+  let date = new Date((unixTime + offset) * 1000);
+
+  let hours = date.getUTCHours();
+
   let minutes = date.getUTCMinutes();
   if (minutes < 10) {
     minutes = "0" + minutes;
